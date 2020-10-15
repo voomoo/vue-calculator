@@ -10,7 +10,7 @@
     </v-app-bar>
     <v-main class="grey darken-3">
       <v-container fluid class="d-flex justify-center mt-8">
-        <HelloWorld/>
+        <Calculator/>
       </v-container>
     </v-main>
     <v-footer padless class="grey darken-4 white--text">
@@ -24,13 +24,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Calculator from './components/Calculator';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Calculator,
   },
 
   data: () => ({
